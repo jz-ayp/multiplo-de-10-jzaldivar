@@ -1,6 +1,15 @@
 def main():
-    # borra la instrucción 'pass' y escribe tu código aquí abajo:
-    pass
+    # Entradas
+    numero = int(input("Introduzca un número: "))
+
+    # Proceso 
+    if numero % 10 == 0:
+        resultado = "sí"
+    else:
+        resultado = "no"
+
+    # Salidas
+    print("El número", numero, resultado, "es múltiplo de 10")
 
 
 if __name__ == '__main__': 
